@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+    
+  
+
+}
+
+body {
+    /* background: rgb(14, 13, 13); */
+    background-color: #151515;
+}
+
+.header__nav{
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+   /*  padding: 6px 0 6px 245px; */
+ 
+
+}
+.header__nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+
+}
+.header__nav-list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 6px 0;
+}
+.header__nav-link{
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'MB';
+   
+}
+.header__nav-btns{
+    display: flex;
+    gap: 25px;
+   
+}
+.header__content{
+    background: url(../images/Header.jpg) no-repeat;
+    background-size: cover;
+    min-height: 635px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 38px   ;
+}
+.header__content-text{
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+    font-family: 'POR';
+
+}
+.header__content-link{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #171718;
+    font-family: 'MB';
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 13px;
+    text-transform: uppercase;
+
+}
+
+.header__content-link img{
+    margin-left: 13px;
+}
+
+.left__content,
+.right__content{
+font-family: 'MM';
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+color: #FFFFFF;
+max-width: 540px;
+width: 100%;
+}
+
+.main__content-card{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 30px  50px  ;
+    gap: 30px;
+    
+}
+.main__mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+    padding: 50px 0;
+
+}
+.main__information-text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 333px;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'MB';
+    text-align: right;
+ 
+}
+.main__information-text2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'MB';
+    max-width: 333px;
+    width: 100%;
+}
+.main__information-img::before{
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+   
+}
+.main__information-img::after{
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;    
+    background: #C4C4C4;
+
+}
+.main__information-img{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.main__information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    padding-top: 50px;
+}
+.main__iphone-text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'MB';
+    
+}
+.main__iphone-price{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'MR';
+}
+.main__iphone-link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #000000;
+    padding: 7px 57px;
+    font-family: 'MB';
+    margin-top: 10px;
+    transition: 400ms;
+}
+.main__iphone-link:hover{
+   background-color: chocolate;
+    color: #000000;
+}
+.main__iphone-title{
+background: #FFFFFF;
+border-radius: 6px;
+width: 100%;
+max-width: 255px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 47px ;
+row-gap: 10px;
+
+}
+.main__iphone{
+    display: flex;
+    /* gap: 30px;
+    justify-content: center; */
+    justify-content: space-between;
+    padding-top: 79px ;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-wrap: wrap;
+
+}
+.footer__types{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'MB';
+
+
+}
+.footer__type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+ 
+}
+.footer{
+    background-color: #282828;
+    margin-top: 55px;
+    
+
+}
+
+
+.footer__last-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 5px;
+}
+.footer__last-links{
+    display: flex;
+    gap: 30px;
+    
+ 
+}
+ 
+@media(max-width:1000px){
+    .main__iphone{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+
+    }
+    .main__mid{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .right__content{
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+    }
+    .main__information{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+.main__information-img{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.main__information-text,
+.main__information-text2{
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+}
+
+.main__content-card{
+    flex-direction: column;
+
+}
+
+.left__content{
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+
+}
+
+
+}
+@media(max-width:700px){
+    .header__nav-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__nav-list{
+        
+        flex-direction: column;
+    }
+    .header__nav-btns{
+        margin-top: 20px;
+    }
+    .header__content-text{
+        text-align: center;
+        font-size: 50px;
+        line-height: 150%;
+        
+    }
+    .footer__last-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .main__mid img {
+        width: 100%;
+
+    }
+    .kottaairpods,
+    .main__information-img{
+        width: 80%;
+    }
+    .main__information-img::before,
+    .main__information-img::after{
+        transform: rotate(90deg);
+        margin: 30px 0;
+     
+    }
+    
+}
